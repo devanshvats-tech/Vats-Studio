@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Creative Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Forum&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="nav-shell">
+        <a class="brand" href="index.html">VATS Studio</a>
+        <nav class="site-nav">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link active" href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-profile">
+          <div class="nav-avatar">D</div>
+          <span class="nav-profile-text">Profile</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="contact-layout">
+        <article class="panel contact-copy reveal">
+          <p class="eyebrow">Get In Touch</p>
+          <h1>Open for good ideas and meaningful collaborations.</h1>
+          <p class="lead">
+            If you want to work together, ask a question, or simply connect, this page keeps it simple and direct.
+          </p>
+
+          <div class="contact-links">
+            <a class="social-chip magnetic" href="mailto:hello@example.com">hello@example.com</a>
+            <a class="social-chip magnetic" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="social-chip magnetic" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </article>
+
+        <article class="panel contact-card tilt-card reveal">
+          <p class="card-label">Quick Message</p>
+          <form class="contact-form">
+            <label>
+              Name
+              <input type="text" placeholder="Your name">
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="your@email.com">
+            </label>
+            <label>
+              Message
+              <textarea rows="5" placeholder="Tell me about your idea..."></textarea>
+            </label>
+            <button class="button primary magnetic" type="button" id="message-button">Send Message</button>
+          </form>
+          <p class="form-note" id="form-note">The interaction is front-end only for now, but the form is styled and ready for a real backend later.</p>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

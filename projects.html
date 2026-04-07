@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Creative Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Forum&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="nav-shell">
+        <a class="brand" href="index.html">VATS Studio</a>
+        <nav class="site-nav">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link active" href="projects.html">Projects</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-profile">
+          <div class="nav-avatar">D</div>
+          <span class="nav-profile-text">Profile</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-intro panel projects-hero">
+        <div class="projects-hero-copy">
+          <p class="eyebrow">Selected Work</p>
+          <h1>Projects with a clean surface and a strong point of view.</h1>
+          <p class="lead">
+            I like building products that feel simple at first, but reveal care and craft the longer you spend with them.
+          </p>
+        </div>
+        <div class="projects-hero-visual tilt-card">
+          <div class="photo-stack">
+            <article class="mock-photo photo-large">
+              <span class="photo-label">Portfolio</span>
+              <div class="photo-ui">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </article>
+            <article class="mock-photo photo-small top">
+              <span class="photo-label">Dashboard</span>
+              <div class="photo-bars">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </article>
+            <article class="mock-photo photo-small bottom">
+              <span class="photo-label">Motion</span>
+              <div class="photo-ring"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="project-grid">
+        <article class="panel project-card tilt-card reveal">
+          <div class="project-topline">
+            <span class="tag">UI / UX</span>
+            <span class="year">2026</span>
+          </div>
+          <h2>Interactive Portfolio Experience</h2>
+          <p>A portfolio concept shaped like a guided narrative instead of a traditional gallery.</p>
+          <button class="ghost-button magnetic" data-project="portfolio">Open insight</button>
+        </article>
+
+        <article class="panel project-card tilt-card reveal">
+          <div class="project-topline">
+            <span class="tag">Web App</span>
+            <span class="year">2026</span>
+          </div>
+          <h2>Focus Flow Dashboard</h2>
+          <p>A productivity interface designed to reduce visual stress and help attention feel more intentional.</p>
+          <button class="ghost-button magnetic" data-project="dashboard">Open insight</button>
+        </article>
+
+        <article class="panel project-card tilt-card reveal">
+          <div class="project-topline">
+            <span class="tag">Creative Code</span>
+            <span class="year">2025</span>
+          </div>
+          <h2>Motion Story Microsite</h2>
+          <p>A scrolling story experiment where movement controls pacing, mood, and the flow of content.</p>
+          <button class="ghost-button magnetic" data-project="microsite">Open insight</button>
+        </article>
+      </section>
+
+      <section class="panel project-detail reveal" id="project-detail">
+        <p class="eyebrow">Project Insight</p>
+        <h2 id="detail-title">Choose a project to reveal the thinking behind it.</h2>
+        <p id="detail-copy">
+          The detail panel updates in place so the experience stays minimal while still feeling dynamic.
+        </p>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
